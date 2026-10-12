@@ -15,10 +15,12 @@ const count = ref(0);
       <img :src="viteLogo" class="vite" alt="Vite logo" />
     </div>
     <div>
-      <h1>Get started</h1>
+      <h1>First VitePlus</h1>
       <p>Edit <code>src/App.vue</code> and save to test <code>HMR</code></p>
     </div>
-    <button type="button" class="counter" @click="count++">Count is {{ count }}</button>
+    <button type="button" class="counter" @click="count++">
+      Count is {{ count }}
+    </button>
   </section>
 
   <div class="ticks"></div>
